@@ -12,7 +12,7 @@
 - [Gitignore](#de-gitignore)
 - [Begrippen](#enkele-belangrijke-begrippen)
 
-# Standaard Workflow
+## Standaard Workflow
 
 #### 1. Repository Initialiseren (één keer per project):
 In de lokale folder van het project:
@@ -117,7 +117,7 @@ $ git commit -am "message"
 $ git pull origin <naam_van_branch> # nieuwste code ophalen vanuit de remote git omgeving
 ```
 
-# Wat is Git?
+## Wat is Git?
 Git is een versiebeheersysteem dat je helpt bij het bijhouden van wijzigingen in bestanden, meestal in de context van softwareontwikkeling. Zie het als een soort "logboek" voor je projecten, waarin elke aanpassing wordt vastgelegd. Dit is handig om verschillende redenen:
 
 - **Wijzigingen bijhouden**: Git registreert elke wijziging die je in je code aanbrengt. Je kunt zien wie wat wanneer heeft veranderd.
@@ -143,7 +143,7 @@ Stel je voor dat je een boek schrijft. Zonder Git zou je steeds nieuwe bestanden
 
 - **Merge**: Het samenvoegen van een branch met een andere branch (meestal de hoofd-branche).
 
-# Gitignore
+## Gitignore
 Een `.gitignore`-bestand is een tekstbestand in een Git-repository dat aangeeft welke bestanden of mappen Git moet negeren. Dit is handig om bestanden die niet relevant zijn voor de versiebeheersing (zoals tijdelijke bestanden, logbestanden, of bestanden met gevoelige informatie) buiten de repository te houden.
 
 **Voordelen van een `.gitignore`-bestand**:
@@ -166,11 +166,11 @@ dist/
 build/
 ```
 
-# Handige Git Commando's
+## Handige Git Commando's
 
 Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git beter te leren begrijpen.
 
-## Basiscommando's (Werken met lokale repositories)
+### Basiscommando's (Werken met lokale repositories)
 
 *   `git init`: Initialiseert een nieuwe Git repository in de huidige map.
 *   `git clone <url>`: Kopieert een bestaande repository van een externe locatie.
@@ -181,7 +181,7 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git config --global user.name "<naam>"`: Stelt je naam in voor Git.
 *   `git config --global user.email "<emailadres>"`: Stelt je e-mailadres in voor Git.
 
-## Branching en Merging (Werken met branches)
+### Branching en Merging (Werken met branches)
 
 *   `git branch`: Toont een lijst van alle branches.
 *   `git branch <naam>`: Maakt een nieuwe branch.
@@ -191,7 +191,7 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git branch -d <naam>`: Verwijdert een branch (alleen als deze is gemerged).
 *   `git branch -D <naam>`: Verwijdert een branch geforceerd.
 
-## Werken met remote repositories
+### Werken met remote repositories
 
 *   `git remote add origin <url>`: Voegt een remote repository toe.
 *   `git push origin <branch>`: Pusht commits naar de remote repository.
@@ -199,7 +199,7 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git fetch`: Haalt de laatste informatie van de remote repository op.
 *   `git remote -v`: Toont een lijst van remote repositories.
 
-## Overige handige commando's
+### Overige handige commando's
 
 *   `git stash`: Parkeert tijdelijk niet-gecommitteerde wijzigingen.
 *   `git stash pop`: Haalt geparkeerde wijzigingen weer terug.
@@ -207,5 +207,5 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git reset <commit>`: Reset de huidige branch naar een eerdere commit.
 *   `git rm <bestand>`: Verwijdert een bestand uit de repository.
 
-# Grappig plaatje
+## Grappig plaatje
 ![css gif](/public/css.gif)
