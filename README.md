@@ -12,7 +12,7 @@
 - [Gitignore](#de-gitignore)
 - [Begrippen](#enkele-belangrijke-begrippen)
 
-### Standaard Workflow
+# Standaard Workflow
 
 #### 1. Repository Initialiseren (één keer per project):
 In de lokale folder van het project:
@@ -117,7 +117,7 @@ $ git commit -am "message"
 $ git pull origin <naam_van_branch> # nieuwste code ophalen vanuit de remote git omgeving
 ```
 
-### Wat is Git?
+# Wat is Git?
 Git is een versiebeheersysteem dat je helpt bij het bijhouden van wijzigingen in bestanden, meestal in de context van softwareontwikkeling. Zie het als een soort "logboek" voor je projecten, waarin elke aanpassing wordt vastgelegd. Dit is handig om verschillende redenen:
 
 - **Wijzigingen bijhouden**: Git registreert elke wijziging die je in je code aanbrengt. Je kunt zien wie wat wanneer heeft veranderd.
@@ -207,5 +207,5 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git reset <commit>`: Reset de huidige branch naar een eerdere commit.
 *   `git rm <bestand>`: Verwijdert een bestand uit de repository.
 
-## Grappig plaatje
+# Grappig plaatje
 ![css gif](/public/css.gif)
