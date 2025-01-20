@@ -207,5 +207,5 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git reset <commit>`: Reset de huidige branch naar een eerdere commit.
 *   `git rm <bestand>`: Verwijdert een bestand uit de repository.
 
-# Grappig plaatje
+## Grappig plaatje
 ![css gif](/public/css.gif)
