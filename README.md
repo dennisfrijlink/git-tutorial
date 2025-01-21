@@ -208,4 +208,4 @@ Deze lijst bevat handige Git commando's met een omschrijving, ideaal om Git bete
 *   `git rm <bestand>`: Verwijdert een bestand uit de repository.
 
 ## Grappig plaatje
-![css gif](/public/css.gif)
+<img src="public/git-merge.gif" alt="git merge" width="100%"/>
